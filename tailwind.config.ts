@@ -26,11 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					hover: 'hsl(var(--secondary-hover))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -51,6 +53,17 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Agricultural portal specific colors
+				agricultural: {
+					green: 'hsl(var(--agricultural-green))',
+					gold: 'hsl(var(--agricultural-gold))'
+				},
+				scheme: {
+					subsidy: 'hsl(var(--scheme-subsidy))',
+					loan: 'hsl(var(--scheme-loan))',
+					equipment: 'hsl(var(--scheme-equipment))',
+					insurance: 'hsl(var(--scheme-insurance))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
